@@ -32,13 +32,31 @@ app.post("/login", (req, res) =>{
     })
     
 })
+
 app.post('/register',(req,res)=>{
-    EmployeeModel.create(req.body)
+    const { name,email,password} =req.body;
+    EmployeeModel.findOne({email: email})
+    .then(user => {
+        if (user){
+            res.json("Already have an account")
+        } else {
+    EmployeeModel.create({name: name, email: email, password: password})
     .then(employees =>res.json(employees))
     .catch(err => res.json(err))
-
+        }
+    }).catch(err => res.json(err))
 })
+
 app.listen(3001, ()=> {
     console.log("Server is running")
 
 })
+
+// app.post('/register',(req,res)=>{
+//     EmployeeModel.create(req.body)
+//     .then(employees =>res.json(employees))
+//     .catch(err => res.json(err))
+
+// })
+
+
