@@ -14,7 +14,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/login', { email, password });
+      const response = await axios.post('https://south-canara-tourism-mern-website-frontend.vercel.app/login', { email, password });
       if (response.data === "Success") {
         navigate('/booking1');
       } else {
