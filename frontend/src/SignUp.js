@@ -12,7 +12,7 @@ const navigate = useNavigate()
 
 const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post('south-canara-tourism-mern-website.vercel.app/register', {name, email, password})
+    axios.post('https://south-canara-tourism-mern-website.vercel.app/register', {name, email, password})
     .then(result => {console.log(result)
     navigate('/login')
     })
