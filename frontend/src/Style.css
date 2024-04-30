@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+    margin: 0;
+    background-image: url('./background1.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* font-size: 8px; */
+    
+}
+
+.image-gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.image-gallery-row {
+    display: flex;
+}
+
+.image-gallery-item {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.image-gallery-item img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+    border: 2px solid #fef8ff;
+}
+
+.image-gallery-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.image-gallery-item p {
+    margin-top: 5px;
+    font-size: 20px; /* set the font size to 16px */
+}
+
+.image-gallery-item p.button-like {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3f2444;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Algerian', sans-serif;
+}
+
+.image-gallery-item p.button-like:hover {
+    background-color: #ffffff;
+    color: #3f2444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.contact-us-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.contact-us-subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.contact-us-form label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-us-form button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3f2444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Algerian', sans-serif;
+}
+
+.contact-us-form button:hover {
+  background-color: #fff;
+  color: #3f2444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  width: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #065335;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+

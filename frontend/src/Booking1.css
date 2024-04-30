@@ -1,0 +1,41 @@
+.booking-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:30em;
+    height: 80vh;
+    background-color: #d6eaf2;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .booking-success h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-success p {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+    margin-top: 3em;
+  }
+  
+  .booking-success .btn {
+    background-color: #007bff;
+    font-display: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 10rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-success .btn:hover {
+    background-color: #0056b3;
+  }

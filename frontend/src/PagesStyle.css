@@ -1,0 +1,199 @@
+/* const hotels = [
+    {
+        name: 'Hotel A',
+        ratings: 4.5,
+        address: 'Address of Hotel A, Mangalore, Karnataka',
+        contact: '123-456-7890',
+        description: 'Welcome to a culinary delight at Hotel A! Experience exquisite flavors and exceptional service.',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\hot1.jfif', 'C:\\Users\\HP\\Desktop\\html-css\\hot13.jfif', 'C:\\Users\\HP\\Desktop\\html-css\\hot22.jfif'],
+        buttonText: 'Book a Table'
+    },
+    {
+        name: 'Hotel B',
+        ratings: 4.2,
+        address: 'Address of Hotel B, Mangalore, Karnataka',
+        contact: '987-654-3210',
+        description: 'Savor the authentic flavors of Mangalore at Hotel B. A true culinary experience awaits you!',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\gm1.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm2.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm3.jpg'],
+        buttonText: 'Explore Menu'
+    },
+    {
+        name: 'Hotel B',
+        ratings: 4.2,
+        address: 'Address of Hotel B, Mangalore, Karnataka',
+        contact: '987-654-3210',
+        description: 'Savor the authentic flavors of Mangalore at Hotel B. A true culinary experience awaits you!',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\gm1.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm2.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm3.jpg'],
+        buttonText: 'Explore Menu'
+    },
+    {
+        name: 'Hotel B',
+        ratings: 4.2,
+        address: 'Address of Hotel B, Mangalore, Karnataka',
+        contact: '987-654-3210',
+        description: 'Savor the authentic flavors of Mangalore at Hotel B. A true culinary experience awaits you!',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\gm1.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm2.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm3.jpg'],
+        buttonText: 'Explore Menu'
+    },
+    {
+        name: 'Hotel B',
+        ratings: 4.2,
+        address: 'Address of Hotel B, Mangalore, Karnataka',
+        contact: '987-654-3210',
+        description: 'Savor the authentic flavors of Mangalore at Hotel B. A true culinary experience awaits you!',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\gm1.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm2.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\gm3.jpg'],
+        buttonText: 'Explore Menu'
+    },
+    {
+        name: 'Hotel C',
+        ratings: 4.8,
+        address: 'Address of Hotel C, Mangalore, Karnataka',
+        contact: '456-789-0123',
+        description: 'Dive into a world of flavors at Hotel C. Indulge in a gastronomic journey like never before!',
+        imageUrls: ['C:\\Users\\HP\\Desktop\\html-css\\cw1.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\cw2.jpg', 'C:\\Users\\HP\\Desktop\\html-css\\cw3.jpg'],
+        buttonText: 'View Specials'
+    }
+]; */
+
+
+/* 
+import React from 'react';
+import styled from 'styled-components';
+
+import e from './e.jpg';
+import e1 from './e1.jpg';
+import e2 from './e2.jpg';
+
+import f3 from './f3.jpg';
+import f1 from './f1.jpg';
+import f2 from './f2.jpg';
+
+import g from './g.jpg';
+import g1 from './g1.jpg';
+import g2 from './g2.jpg';
+
+import h from './h.jpg';
+import h1 from './h1.jpg';
+import h2 from './h2.jpg';
+
+import i from './i.jpg';
+import i1 from './i1.jpg';
+import i2 from './i2.jpg';
+
+const HotelContainer = styled.div`
+    background-color: #10371e; 
+    color: white; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+`;
+
+const PageTitle = styled.h1`
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+`;
+
+const SectionTitle = styled.h2`
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+`;
+
+const HotelImage = styled.img`
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+`;
+
+const Button = styled.button`
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+`;
+
+const Udprestro = () => {
+    const hotels = [
+        {
+            name: 'White Lotus',
+            ratings: 9.6,
+            address: 'Green Park Premier, Mosque Road, Udupi, 576101, Udupi, India',
+            contact:'+91 8202531211',
+            description: 'Situated in the heart of Udupi, White Lotus is a Boutique Hotel which offers exquisite rooms and choice of restaurants.',
+            imageUrls: [e ,e1 , e2],
+            buttonText: 'BOOK HERE'
+            
+        },
+        {
+            name: 'Samanvay Boutique',
+            ratings: 9.5,
+            address: 'Near Govinda Kalyana Mantapa, 576101, Udupi, India',
+            contact: '',
+            description: 'Samanvay Boutique Hotel is a perfect starting point from which to explore Udupi. Free Wi-Fi in all rooms, 24-hour security, daily housekeeping, 24-hour front desk, express check-in/check-out are just some of the facilities on offer.',
+            imageUrls: [g,g1,g2],
+            buttonText: 'BOOK HERE'
+        },
+        {
+            name: 'Country Inn & Suites by Radisson',
+            ratings: 8.8,
+            address: 'Address of Hotel B, Mangalore, Karnataka',
+            contact: '+91 820 2701600',
+            description: 'Savor the authentic flavors of Udupi at Country Inn & Suites. A true culinary experience awaits you!',
+            imageUrls: [i2,i,i1],
+            buttonText: 'BOOK HERE'
+        },
+
+        {
+            name: 'Essentia Manipal Inn',
+            ratings: 8.7,
+            address: ' NH-66 Near Karavali Junction UDUPI, 576103 Udupi, India ',
+            contact: '',
+            description: 'Guests at Essentia Manipal Inn can enjoy a buffet breakfast. The nearest airport is Mangalore International Airport, 55 km from the accommodation. At the hotel the rooms have a wardrobe and a private bathroom. ',
+            imageUrls: [h,h1,h2],
+            buttonText: 'BOOK HERE'
+        },
+        {
+            name: 'Udupi Residency',
+            ratings: 7.5,
+            address: 'Near Service Bus Stand, 576101, Udupi, India',
+            contact: '+91(820)2530005',
+            description: "The Hotel Udupi Residency offers comfort and convenience whether you're on business or holiday in Udupi. Friendly staff, great facilities and close proximity to all that Udupi has to offer are three great reasons you should stay at Hotel Udupi Residency.",
+            imageUrls: [f3,f1,f2],
+            buttonText: 'BOOK HERE'
+        }
+    
+    ];
+
+    return (
+        <div style={{ backgroundColor: '#81bb8d', color: 'black', padding: '12px' }}>
+            <PageTitle>Top 5 Restaurants</PageTitle>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                {hotels.map((hotel, index) => (
+                    <HotelContainer key={index}>
+                        <SectionTitle>{hotel.name}</SectionTitle>
+                        <p>Ratings: {hotel.ratings}</p>
+                        <p>Address: {hotel.address}</p>
+                        <p>Contact: {hotel.contact}</p>
+                        <p>Description: {hotel.description}</p>
+                        <div>
+                            {hotel.imageUrls.map((imageUrl, i) => (
+                                <HotelImage key={i} src={imageUrl} alt={`Image ${i}`} />
+                            ))}
+                        </div>
+                        <Button>{hotel.buttonText}</Button>
+                    </HotelContainer>
+                ))}
+            </div>
+        </div>
+    );
+}
+
+export default Udprestro; */
