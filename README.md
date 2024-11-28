@@ -4,11 +4,6 @@ Welcome to the **South Canara Tourism**! This project is a full-stack web applic
 
 ---
 
-## About the Project
-
-
----
-
 ## Features
 - **MongoDB**: Robust NoSQL database for data storage.
 - **Express.js**: Flexible and lightweight backend framework.
